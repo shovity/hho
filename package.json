@@ -1,0 +1,15 @@
+{
+  "name": "hho",
+  "version": "0.0.6",
+  "description": "hho",
+  "author": "Huong Nguyen <shovity@gmail.com>",
+  "repository": "https://github.com/shovity/hho",
+  "main": "app.js",
+  "license": "MIT",
+  "bin": {
+    "hho": "./app.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1"
+  }
+}
