@@ -19,8 +19,8 @@ const main = async () => {
         const cv = {
             raw: '',
             file: file,
-            name: file.split('.')[0].split(' - ')[1],
-            position: file.split(' - ')[0],
+            name: file.split('.')[0].split(/-|_/)[1].trim(),
+            position: file.split(/-|_/)[0].trim(),
         }
 
         if (ext === 'pdf') {
