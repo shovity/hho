@@ -10,6 +10,7 @@
     "hho": "./app.js"
   },
   "dependencies": {
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "word-extractor": "^1.0.2"
   }
 }

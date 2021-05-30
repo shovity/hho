@@ -1,4 +1,6 @@
 *DS_Store
 node_modules
-sam.pdf
+*.pdf
+*.doc
+*.docx
 hho_result.csv
